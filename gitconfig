@@ -12,11 +12,17 @@
   co = checkout
   pf = push --force-with-lease
   st = status
+	d = difftool
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
 [merge]
   ff = only
+  tool = vimdiff
+[mergetool]
+  prompt = true
+[mergetool "vimdiff"]
+  cmd = nvim -d $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
 [commit]
   template = ~/.gitmessage
 [fetch]
@@ -27,6 +33,9 @@
   path = ~/.gitconfig.local
 [diff]
   colorMoved = zebra
+	tool = vimdiff
+[difftool]
+	prompt = false
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
