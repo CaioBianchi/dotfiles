@@ -36,3 +36,5 @@
 [user]
   name = Caio Bianchi
   email = caio@caio.ca
+[pull]
+	rebase = false
