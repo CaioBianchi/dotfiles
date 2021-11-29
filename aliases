@@ -15,6 +15,42 @@ alias s="rspec"
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
 
+# Productivity
+alias todo='$EDITOR ~/.todo'
+alias cat='bat'
+alias preview="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
+alias top="sudo htop"
+alias lg='lazygit'
+alias ls='exa'
+
+# Bundler
+alias be='bundle exec'
+
+# Handy aliases
+alias untar='tar -zxvf '
+alias wget='wget -c ' # Resume if anything goes wrong
+alias sha='shasum -a 256 '
+alias ipe='curl ipinfo.io/ip' # Get External IP
+alias ipi='ipconfig getifaddr en0' #Get Internal IP
+alias c='clear'
+alias weather='curl wttr.in/Kitchener,ON?F'
+
+# Paths
+alias work='cd ~/Code'
+alias vimconfig='e ~/.config/nvim/lua/plugins.lua'
+
+# Docker
+alias dcup='docker-compose up'
+alias dcr='docker-compose run'
+alias dcra='docker-compose run app'
+alias dcstop='docker-compose stop'
+alias dcrm='docker-compose down --rmi all'
+alias dcb='docker-compose build'
+alias dcps='docker-compose ps'
+alias dps='docker ps'
+alias dsql='docker container exec -it $(docker-compose ps -q postgres) psql -U postgres'
+alias dstop='docker container stop $(docker container list -qa)'
+
 # Include custom aliases
 if [[ -f ~/.aliases.local ]]; then
   source ~/.aliases.local

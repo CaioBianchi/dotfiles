@@ -13,6 +13,9 @@
   co = checkout
   pf = push --force-with-lease
   st = status
+  l = log --all --decorate --oneline --graph --pretty=colored
+  submodule-update = submodule update --remote --merge
+  contributors = shortlog -s -n
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
@@ -28,3 +31,8 @@
   path = ~/.gitconfig.local
 [diff]
   colorMoved = zebra
+[pretty]
+  colored = format:%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
+[user]
+  name = Caio Bianchi
+  email = caio@caio.ca
