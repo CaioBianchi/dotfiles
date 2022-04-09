@@ -1,5 +1,5 @@
-export LDFLAGS=-L/usr/local/opt/zlib/lib
-export CPPFLAGS=-I/usr/local/opt/zlib/include
+export LDFLAGS=-L/opt/homebrew/opt/libffi/lib
+export CPPFLAGS=-I/opt/homebrew/opt/libffi/include
 zstyle ':autocomplete:*' fzf-completion yes
 zstyle ':autocomplete:*' min-input 1
 
