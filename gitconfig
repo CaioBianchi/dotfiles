@@ -19,8 +19,10 @@
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
+  pager = delta
 [merge]
   ff = only
+  conflictstyle = diff3
 [commit]
   template = ~/.gitmessage
 [fetch]
@@ -30,7 +32,7 @@
 [include]
   path = ~/.gitconfig.local
 [diff]
-  colorMoved = zebra
+  colorMoved = default
 [pretty]
   colored = format:%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
 [user]
@@ -38,3 +40,23 @@
   email = caio@caio.ca
 [pull]
 	rebase = false
+[interactive]
+  diffFilter = delta --color-only
+[delta]
+  navigate = true  # use n and N to move between diff sections
+  side-by-side = true
+  line-numbers = true
+  features = side-by-side line-numbers decorations
+  syntax-theme = OneHalfDark
+  plus-style = syntax "#003800"
+  minus-style = syntax "#3f0001"
+[delta "decorations"]
+  commit-decoration-style = bold yellow box ul
+  file-style = bold yellow ul
+  file-decoration-style = none
+  hunk-header-decoration-style = cyan box ul
+[delta "line-numbers"]
+  line-numbers-left-style = cyan
+  line-numbers-right-style = cyan
+  line-numbers-minus-style = 124
+  line-numbers-plus-style = 28

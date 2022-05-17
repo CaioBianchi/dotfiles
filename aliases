@@ -22,6 +22,9 @@ alias preview="fzf --preview 'bat --color=always --style=numbers --line-range=:5
 alias top="sudo htop"
 alias lg='lazygit'
 alias ls='exa'
+alias du='dust'
+alias df='duf'
+alias dig='dog'
 
 # Bundler
 alias be='bundle exec'
