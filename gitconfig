@@ -37,7 +37,7 @@
   colored = format:%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
 [user]
   name = Caio Bianchi
-  email = caio@caio.ca
+	email = CaioBianchi@users.noreply.github.com
 [pull]
 	rebase = false
 [interactive]
@@ -48,3 +48,8 @@
   line-numbers = true
   features = side-by-side line-numbers decorations
   syntax-theme = OneHalfDark
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
