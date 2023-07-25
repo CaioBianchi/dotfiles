@@ -4,14 +4,6 @@ alias ln="ln -v"
 alias mkdir="mkdir -p"
 alias e="$EDITOR"
 alias v="$VISUAL"
-alias multipull="find . -mindepth 1 -maxdepth 1 -type d -print -exec git -C {} pull \;"
-
-# Bundler
-alias b="bundle"
-
-# Rails
-alias migrate="bin/rails db:migrate db:rollback && bin/rails db:migrate db:test:prepare"
-alias s="rspec"
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
@@ -27,9 +19,6 @@ alias du='dust'
 alias df='duf'
 alias dig='dog'
 
-# Bundler
-alias be='bundle exec'
-
 # Handy aliases
 alias untar='tar -zxvf '
 alias wget='wget -c ' # Resume if anything goes wrong
@@ -40,7 +29,7 @@ alias c='clear'
 alias weather='curl wttr.in/Kitchener,ON?F'
 
 # Paths
-alias work='cd ~/Code'
+alias work='cd ~/code'
 alias vimconfig='e ~/.config/nvim/lua/plugins.lua'
 
 # Include custom aliases
