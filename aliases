@@ -14,7 +14,7 @@ alias cat='bat'
 alias preview="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
 alias top="sudo htop"
 alias lg='lazygit'
-alias ls='exa'
+alias ls='eza'
 alias du='dust'
 alias df='duf'
 alias dig='dog'
