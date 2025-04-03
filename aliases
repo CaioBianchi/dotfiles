@@ -26,7 +26,7 @@ alias sha='shasum -a 256 '
 alias ipe='curl ipinfo.io/ip' # Get External IP
 alias ipi='ipconfig getifaddr en0' #Get Internal IP
 alias c='clear'
-alias weather='curl wttr.in/Kitchener,ON?F'
+alias weather='curl wttr.in/Ottawa,ON?F'
 
 # Paths
 alias work='cd ~/code'

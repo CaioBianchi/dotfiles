@@ -34,13 +34,11 @@ _load_settings() {
 }
 _load_settings "$HOME/.zsh/configs"
 
+export PATH=/Users/caio/bin:${PATH}
+
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-
- export PATH=/Users/caio/bin:${PATH}
