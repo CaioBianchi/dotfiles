@@ -36,9 +36,6 @@
   colorMoved = default
 [pretty]
   colored = format:%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
-[user]
-  name = Caio Bianchi
-	email = CaioBianchi@users.noreply.github.com
 [pull]
 	rebase = false
 [interactive]
