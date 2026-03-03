@@ -1,6 +1,4 @@
 # Unix
-alias ll="ls -al"
-alias ln="ln -v"
 alias mkdir="mkdir -p"
 alias e="$EDITOR"
 alias v="$VISUAL"
@@ -12,12 +10,8 @@ alias path='echo $PATH | tr -s ":" "\n"'
 alias todo='$EDITOR ~/.todo'
 alias cat='bat'
 alias preview="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
-alias top="sudo htop"
 alias lg='lazygit'
 alias ls='eza'
-alias du='dust'
-alias df='duf'
-alias dig='dog'
 
 # Handy aliases
 alias untar='tar -zxvf '
@@ -26,7 +20,6 @@ alias sha='shasum -a 256 '
 alias ipe='curl ipinfo.io/ip' # Get External IP
 alias ipi='ipconfig getifaddr en0' #Get Internal IP
 alias c='clear'
-alias weather='curl wttr.in/Ottawa,ON?F'
 
 # Paths
 alias work='cd ~/code'
