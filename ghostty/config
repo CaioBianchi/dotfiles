@@ -1,0 +1,8 @@
+theme = TokyoNight Storm
+font-family = "Cascadia Code NF"
+font-size = 18
+copy-on-select = true
+window-width = 1
+shell-integration = fish
+auto-update-channel = tip
+shell-integration-features = cursor
