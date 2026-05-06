@@ -1,0 +1,9 @@
+2026-05-06T23:55:41.575009Z  INFO herdr::api: api server listening path=/Users/caio/.config/herdr/herdr.sock
+2026-05-06T23:55:41.575629Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-05-06T23:55:41.575954Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-05-06T23:55:41.576186Z  INFO herdr::server::headless: client protocol socket listening path=/Users/caio/.config/herdr/herdr-client.sock
+2026-05-06T23:55:41.576211Z  INFO herdr::server::headless: herdr server started api_socket=/Users/caio/.config/herdr/herdr.sock client_socket=/Users/caio/.config/herdr/herdr-client.sock
+2026-05-06T23:55:41.576221Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=67889
+2026-05-06T23:55:41.828612Z  INFO herdr::server::headless: client connected client_id=2 cols=269 rows=66
+2026-05-06T23:55:50.059587Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-05-06T23:55:50.062384Z  INFO herdr::server::headless: client disconnected client_id=2
