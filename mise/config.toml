@@ -1,5 +1,4 @@
 [tools]
 go = "latest"
 node = "latest"
-postgres = "latest"
 ruby = "latest"
