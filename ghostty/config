@@ -1,8 +1,8 @@
 theme = TokyoNight Storm
 font-family = "JetBrains Mono NL"
-font-size = 18
-copy-on-select = true
+font-size = 16
 window-width = 1
-shell-integration = fish
 auto-update-channel = tip
-shell-integration-features = cursor
+shell-integration-features = cursor,path,ssh-env,ssh-terminfo,sudo,title
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+quick-terminal-size = 100%,100%
