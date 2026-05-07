@@ -25,7 +25,7 @@
   autocrlf = input
   excludesfile = ~/.gitignore
   fsmonitor = true
-  pager = hunk diff
+  pager = hunk pager
   untrackedCache = true
 
 [delta]
