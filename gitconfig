@@ -28,16 +28,9 @@
   pager = hunk pager
   untrackedCache = true
 
-[delta]
-  features = side-by-side line-numbers decorations
-  line-numbers = true
-  navigate = true
-  side-by-side = true
-
 [diff]
   algorithm = histogram
   colorMoved = plain
-  mnemonicPrefix = true
 
 [fetch]
   prune = true
@@ -50,9 +43,6 @@
 
 [init]
   defaultBranch = main
-
-[interactive]
-  diffFilter = delta --color-only
 
 [merge]
   conflictstyle = diff3
