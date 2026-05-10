@@ -1,6 +1,14 @@
 return {
-  -- -- Add colorscheme plugin
-  { "folke/tokyonight.nvim" },
+  {
+    "folke/tokyonight.nvim",
+    opts = {
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
+  },
 
   -- Configure LazyVim to load preferred colorscheme
   {
