@@ -1,4 +1,0 @@
-2026-05-06T23:55:41.622093Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=67888
-2026-05-06T23:55:41.622187Z  INFO herdr::client: connecting to server path=/Users/caio/.config/herdr/herdr-client.sock
-2026-05-06T23:55:41.828615Z  INFO herdr::client: handshake succeeded version=2
-2026-05-06T23:55:50.060476Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=67888

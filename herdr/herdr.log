@@ -1,7 +1,0 @@
-2026-05-06T23:54:34.291600Z  INFO api server listening path=/Users/caio/.config/herdr/herdr.sock
-2026-05-06T23:54:34.291817Z  INFO herdr starting, pid=67812
-2026-05-06T23:54:34.293273Z  INFO using pane scrollback configuration pane_scrollback_limit_bytes=10000000
-2026-05-06T23:54:34.471830Z  INFO new version v0.5.5 available at https://github.com/ogulcancelik/herdr/releases/download/v0.5.5/herdr-macos-aarch64
-2026-05-06T23:54:34.472641Z  INFO auto-update check: v0.5.5 available, waiting for manual install
-2026-05-06T23:55:33.239634Z  INFO session cleared path=/Users/caio/.config/herdr/session.json
-2026-05-06T23:55:33.241506Z  INFO herdr exiting
