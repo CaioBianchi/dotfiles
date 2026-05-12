@@ -1,4 +1,5 @@
 [tools]
+aube = "latest"
 go = "latest"
 lua = "latest"
 node = "latest"
