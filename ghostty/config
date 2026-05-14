@@ -5,6 +5,6 @@ window-width = 1
 auto-update-channel = tip
 shell-integration-features = cursor,path,ssh-env,ssh-terminfo,sudo,title
 keybind = global:cmd+grave_accent=toggle_quick_terminal
-quick-terminal-size = 75%,90%
-quick-terminal-position = center
+quick-terminal-size = 100%,100%
+# quick-terminal-position = center
 link-previews = true
