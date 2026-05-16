@@ -1,1 +1,3 @@
---theme="tokyonight_storm"
+--theme=auto
+--theme-dark="tokyonight_storm"
+--theme-light="tokyonight_day"
