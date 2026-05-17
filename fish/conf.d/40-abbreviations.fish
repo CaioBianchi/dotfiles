@@ -8,9 +8,7 @@ abbr -a v nvim
 abbr -a vim nvim
 
 # File helpers
-abbr -a ls "eza -lh --group-directories-first --icons=auto"
-abbr -a ll "eza -lh --icons=auto -l"
-abbr -a la "eza -lh --icons=auto -la"
+abbr -a ls "eza -lha --group-directories-first --icons=auto --git"
 abbr -a lt "eza --tree --level=2 --long --icons --git"
 abbr -a tree "eza --tree"
 abbr -a cat bat
