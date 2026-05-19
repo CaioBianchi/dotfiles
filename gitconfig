@@ -25,8 +25,13 @@
   autocrlf = input
   excludesfile = ~/.gitignore
   fsmonitor = true
-  pager = hunk pager
+  pager = delta
   untrackedCache = true
+
+[delta]
+  navigate = true
+  side-by-side = true
+  line-numbers = true
 
 [diff]
   algorithm = histogram
@@ -45,8 +50,11 @@
 [init]
   defaultBranch = main
 
+[interactive]
+  diffFilter = delta --color-only
+
 [merge]
-  conflictstyle = diff3
+  conflictstyle = zdiff3
   ff = only
 
 [pretty]
