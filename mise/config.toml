@@ -1,10 +1,4 @@
 [tools]
-aube = "latest"
-bun = "latest"
-deno = "latest"
-go = "latest"
 lua = "latest"
 node = "latest"
-python = "latest"
 ruby = "latest"
-rust = "latest"
