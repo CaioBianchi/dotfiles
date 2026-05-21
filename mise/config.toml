@@ -1,9 +1,12 @@
 [tools]
+aube = "latest"
 lua = "latest"
 node = "latest"
+postgres = "latest"
 ruby = "latest"
 
 [settings]
+idiomatic_version_file_enable_tools = ["node"]
 
 [settings.ruby]
 compile = false
