@@ -1,13 +1,22 @@
 [alias]
   aa = add --all
   ap = add --patch
+  amend = commit --amend
   ci = commit -v
+  cm = commit -m
   co = checkout
   contributors = shortlog -s -n
   l = log --all --decorate --oneline --graph --pretty=colored
+  last = log -1 HEAD --stat
   pf = push --force-with-lease
+  rb = rebase
+  rbi = rebase --interactive
+  rs = restore --staged
   st = status
   submodule-update = submodule update --remote --merge
+  sw = switch
+  swc = switch --create
+  unstage = restore --staged
 
 [branch]
   sort = -committerdate
@@ -23,9 +32,11 @@
 
 [core]
   autocrlf = input
+  editor = nvim
   excludesfile = ~/.gitignore
   fsmonitor = true
   pager = delta
+  safecrlf = warn
   untrackedCache = true
 
 [delta]
@@ -40,6 +51,7 @@
 
 [fetch]
   prune = true
+  pruneTags = true
 
 [filter "lfs"]
   clean = git-lfs clean -- %f
@@ -69,6 +81,9 @@
 
 [rebase]
   autosquash = true
+
+[rerere]
+  enabled = true
 
 [tag]
   sort = -version:refname

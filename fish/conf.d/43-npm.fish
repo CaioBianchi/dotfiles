@@ -44,3 +44,18 @@ abbr nafixf 'npm audit fix --force'
 abbr ncu 'npx npm-check-updates'
 abbr ncug 'npx npm-check-updates -u'
 abbr ncuig 'npx npm-check-updates -u --interactive'
+
+# pnpm
+abbr p 'pnpm'
+abbr pi 'pnpm install'
+abbr pa 'pnpm add'
+abbr pad 'pnpm add -D'
+abbr pr 'pnpm run'
+abbr pd 'pnpm dev'
+abbr pb 'pnpm build'
+abbr pt 'pnpm test'
+abbr pl 'pnpm lint'
+
+# Corepack
+abbr cx 'corepack'
+abbr cxe 'corepack enable'

@@ -11,12 +11,14 @@ ruby:*.{rb,haml,erb,rbs,ru}*
 # Search hidden files / directories (e.g. dotfiles) by default
 --hidden
 
-# Using glob patterns to include/exclude files or folders
---glob=!.git/*
-
-# or
---glob
-!.git/*
+# Keep hidden-file searches useful without descending into noisy generated trees.
+--glob=!**/.git/*
+--glob=!**/node_modules/*
+--glob=!**/.next/*
+--glob=!**/dist/*
+--glob=!**/coverage/*
+--glob=!**/tmp/*
+--glob=!**/log/*
 
 # Set the colors.
 --colors=line:none

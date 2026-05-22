@@ -212,7 +212,7 @@ gui:
   # Nerd fonts version to use.
   # One of: '2' | '3' | empty string (default)
   # If empty, do not show icons.
-  nerdFontsVersion: ""
+  nerdFontsVersion: "3"
 
   # If true (default), file icons are shown in the file views. Only relevant if
   # NerdFontsVersion is not empty.
@@ -327,7 +327,7 @@ git:
   # See https://github.com/jesseduffield/lazygit/blob/master/docs/Custom_Pagers.md
   # for more information.
   pagers:
-    - pager: hunk pager
+    - pager: delta --dark --paging=never --line-numbers
 
   # Config relating to committing
   commit:
@@ -509,7 +509,7 @@ os:
 
   # A built-in preset that sets all of the above settings. Supported presets are
   # defined in the getPreset function in editor_presets.go.
-  editPreset: ""
+  editPreset: nvim
 
   # Command for opening a file, as if the file is double-clicked. Should contain
   # "{{filename}}", but doesn't support "{{line}}".
@@ -533,7 +533,7 @@ os:
   shellFunctionsFile: ""
 
 # If true, don't display introductory popups upon opening Lazygit.
-disableStartupPopups: false
+disableStartupPopups: true
 
 # User-configured commands that can be invoked from within Lazygit
 # See https://github.com/jesseduffield/lazygit/blob/master/docs/Custom_Command_Keybindings.md

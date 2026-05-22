@@ -40,7 +40,6 @@ abbr -a rtf "bundle exec rspec --format documentation"
 # Other common Ruby tools
 abbr -a pry "bundle exec pry"
 abbr -a brake "bundle exec rake"
+abbr -a rubo "bundle exec rubocop"
+abbr -a ruboa "bundle exec rubocop -A"
 abbr -a annotate "bundle exec annotate"
-
-# Docker Compose for Rails (common pattern)
-abbr -a dcr "docker compose run --rm web"
