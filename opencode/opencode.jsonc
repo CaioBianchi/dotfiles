@@ -10,7 +10,4 @@
     "max_lines": 500,
     "max_bytes": 20000,
   },
-  // "attention": {
-  //   "enabled": true,
-  // },
 }
