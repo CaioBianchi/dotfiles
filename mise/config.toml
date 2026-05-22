@@ -3,6 +3,7 @@ aube = "latest"
 deno = "latest"
 lua = "latest"
 node = "latest"
+pnpm = "latest"
 postgres = "latest"
 ruby = "latest"
 
