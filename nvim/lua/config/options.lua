@@ -13,3 +13,9 @@ opt.timeoutlen = 300
 opt.undofile = true
 opt.updatetime = 200
 opt.wrap = false
+
+vim.filetype.add({
+  filename = {
+    ["config"] = "dosini",
+  },
+})
