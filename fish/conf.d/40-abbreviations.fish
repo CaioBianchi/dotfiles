@@ -24,7 +24,7 @@ abbr -a preview "fzf --preview 'bat --color=always --style=numbers --line-range=
 
 # Config & tools
 abbr -a cfg "chezmoi cd"
-abbr -a gconfig "nvim ~/.config/ghostty/config"
+abbr -a gconfig "ghostty +edit-config"
 abbr -a ld lazydocker
 abbr -a lg lazygit
 abbr -a lgc "lazygit -p ~/.local/share/chezmoi"
