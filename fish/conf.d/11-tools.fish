@@ -7,10 +7,6 @@ if command -q mise
 end
 
 if status is-interactive
-    if command -q direnv
-        direnv hook fish | source
-    end
-
     if command -q atuin
         atuin init fish | source
     end
