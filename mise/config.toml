@@ -1,5 +1,6 @@
 [tools]
 aube = "latest"
+bun = "latest"
 deno = "latest"
 lua = "latest"
 node = "latest"
