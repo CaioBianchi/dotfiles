@@ -9,5 +9,3 @@ auto-update-channel = stable
 shell-integration-features = cursor,path,ssh-env,ssh-terminfo,sudo,title
 link-previews = true
 keybind = super+,=text:\x1bqghostty +edit-config\x0d
-background-opacity = 0.9
-background-blur = 1
