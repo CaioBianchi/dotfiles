@@ -1,6 +1,6 @@
 # Print an optspec for argparse to handle cmd's options that are independent of any subcommand.
 function __fish_grok_global_optspecs
-	string join \n v/version cwd= always-approve allow= deny= p/single= prompt-json= prompt-file= verbatim output-format= m/model= reasoning-effort= rules= system-prompt-override= r/resume= load= c/continue s/session-id= w/worktree= restore-code no-plan no-subagents no-ask-user experimental-memory no-memory agent= agents= tools= disallowed-tools= effort= max-turns= permission-mode= disable-web-search check best-of-n= sandbox= storage-mode= client-identifier= hunk-tracker-mode= terminal fs-read fs-write no-auto-update todo-gate installer= no-alt-screen log-sampling force-login oauth leader no-leader hub-url= hub-workspace-mode= h/help
+	string join \n v/version cwd= always-approve allow= deny= p/single= prompt-json= prompt-file= verbatim output-format= m/model= reasoning-effort= rules= compaction-mode= compaction-detail= system-prompt-override= r/resume= load= c/continue s/session-id= w/worktree= restore-code no-plan no-subagents no-ask-user experimental-memory no-memory agent= agents= tools= disallowed-tools= effort= max-turns= permission-mode= disable-web-search check best-of-n= sandbox= storage-mode= client-identifier= hunk-tracker-mode= terminal fs-read fs-write no-auto-update todo-gate installer= no-alt-screen log-sampling force-login oauth leader no-leader hub-url= hub-workspace-mode= h/help
 end
 
 function __fish_grok_needs_command
@@ -36,6 +36,8 @@ streaming-json\t''"
 complete -c grok -n "__fish_grok_needs_command" -s m -l model -d 'Model ID to use' -r
 complete -c grok -n "__fish_grok_needs_command" -l reasoning-effort -d 'Reasoning effort for reasoning models' -r
 complete -c grok -n "__fish_grok_needs_command" -l rules -d 'Extra rules to append to the system prompt' -r
+complete -c grok -n "__fish_grok_needs_command" -l compaction-mode -d 'Compaction mode [summary|transcript|segments]: `summary` (default) adds no pointer; `transcript` points at the raw transcript; `segments` persists per-segment markdown to grep. Sets `GROK_COMPACTION_MODE`' -r
+complete -c grok -n "__fish_grok_needs_command" -l compaction-detail -d 'Segments verbatim detail [none|minimal|balanced|verbose] (default `verbose`). Only affects `--compaction-mode segments`. Sets `GROK_COMPACTION_DETAIL`' -r
 complete -c grok -n "__fish_grok_needs_command" -l system-prompt-override -d 'Override the agent\'s system prompt (Claude Code: --system-prompt)' -r
 complete -c grok -n "__fish_grok_needs_command" -s r -l resume -d 'Resume a session by ID, or the most recent if omitted' -r
 complete -c grok -n "__fish_grok_needs_command" -l load -d 'Resume a previous session by session ID (alias for --resume)' -r
