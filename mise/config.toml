@@ -1,9 +1,13 @@
 [tools]
 aube = "latest"
 deno = "latest"
+hk = "latest"
+jq = "latest"
 lua = "latest"
 node = "latest"
+"npm:prettier" = "latest"
 odin = "latest"
+pkl = "latest"
 postgres = "latest"
 ruby = "latest"
 rust = "latest"
@@ -13,3 +17,10 @@ idiomatic_version_file_enable_tools = ["node"]
 
 [settings.ruby]
 compile = false
+
+[env]
+HK_MISE = 1
+
+[hooks]
+# Automatically install/update hooks when tools are installed
+postinstall = "hk install --mise"
