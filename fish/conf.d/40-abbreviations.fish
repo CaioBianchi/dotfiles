@@ -64,3 +64,6 @@ abbr -a t tmux
 abbr -a ta "tmux attach"
 abbr -a tn "tmux new-session"
 abbr -a tl "tmux list-sessions"
+
+# AI
+abbr -a oc opencode
