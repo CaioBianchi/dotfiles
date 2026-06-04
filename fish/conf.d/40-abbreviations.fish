@@ -8,7 +8,7 @@ abbr -a v nvim
 abbr -a vim nvim
 
 # File helpers
-abbr -a ls "lsd "
+abbr -a ls lsd
 abbr -a l "lsd -lah"
 abbr -a la "lsd -la"
 abbr -a ll "lsd -lh"
