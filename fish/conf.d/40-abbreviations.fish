@@ -8,12 +8,12 @@ abbr -a v nvim
 abbr -a vim nvim
 
 # File helpers
-abbr -a ls "eza --group-directories-first --icons=auto"
-abbr -a l "eza -lah --group-directories-first --icons=auto --git"
-abbr -a la "eza -la --group-directories-first --icons=auto --git"
-abbr -a ll "eza -lh --group-directories-first --icons=auto --git"
-abbr -a lt "eza --tree --level=2 --long --icons=auto --git"
-abbr -a tree "eza --tree"
+abbr -a ls "lsd "
+abbr -a l "lsd -lah"
+abbr -a la "lsd -la"
+abbr -a ll "lsd -lh"
+abbr -a lt "lsd --tree --level=2 --long"
+abbr -a tree "lsd --tree"
 abbr -a cat bat
 abbr -a mkdir "mkdir -p"
 abbr -a du dust
