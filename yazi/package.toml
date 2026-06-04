@@ -1,0 +1,9 @@
+[[plugin.deps]]
+use = "yazi-rs/flavors:tokyo-night"
+rev = "0f9204b"
+hash = "99aa06d3014798d86001c324468d497f"
+
+[flavor]
+dark = "tokyonight-storm"
+light = "tokyonight-day"
+deps = []
