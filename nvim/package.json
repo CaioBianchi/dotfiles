@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "@github/copilot-language-server": "^1.396.0"
+    "@github/copilot-language-server": "^1.501.0"
   }
 }
