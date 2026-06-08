@@ -60,7 +60,7 @@ abbr -a top btop
 abbr -a ps procs
 
 # Quick tmux
-abbr -a t tmux
+abbr -a t "tmux attach || tmux new -s Work"
 abbr -a ta "tmux attach"
 abbr -a tn "tmux new-session"
 abbr -a tl "tmux list-sessions"

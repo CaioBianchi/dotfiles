@@ -7,6 +7,7 @@ lua = "latest"
 node = "latest"
 "npm:prettier" = "latest"
 odin = "latest"
+pi = "latest"
 pkl = "latest"
 postgres = "latest"
 ruby = "latest"
@@ -21,7 +22,3 @@ compile = false
 
 [env]
 HK_MISE = 1
-
-[hooks]
-# Automatically install/update hooks when tools are installed
-postinstall = "hk install --mise"
