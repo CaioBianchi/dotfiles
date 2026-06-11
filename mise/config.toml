@@ -5,20 +5,12 @@ hk = "latest"
 jq = "latest"
 lua = "latest"
 node = "latest"
-"npm:prettier" = "latest"
 odin = "latest"
 pi = "latest"
 pkl = "latest"
 postgres = "latest"
 ruby = "latest"
 rust = "latest"
-
-[settings]
-idiomatic_version_file_enable_tools = ["node"]
-experimental = true
-
-[settings.ruby]
-compile = false
 
 [env]
 HK_MISE = 1
