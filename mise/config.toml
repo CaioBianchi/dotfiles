@@ -1,16 +1,12 @@
 [tools]
 aube = "latest"
 deno = "latest"
-hk = "latest"
 jq = "latest"
 lua = "latest"
 node = "latest"
-odin = "latest"
 pi = "latest"
-pkl = "latest"
 postgres = "latest"
 ruby = "latest"
-rust = "latest"
 
 [env]
 HK_MISE = 1
