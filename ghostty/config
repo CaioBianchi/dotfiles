@@ -1,8 +1,8 @@
 theme = dark:TokyoNight Storm,light:TokyoNight Day
 font-family = "Lilex"
 font-size = 18
-window-width = 185
-window-height = 50
+window-width = 140
+window-height = 42
 window-padding-x = 8
 window-padding-y = 6
 auto-update-channel = stable
@@ -12,3 +12,4 @@ keybind = super+,=text:\x1bqghostty +edit-config\x0d
 custom-shader = shaders/cursor_warp.glsl
 background-opacity = 0.8
 background-blur = macos-glass-regular
+auto-update-channel = tip

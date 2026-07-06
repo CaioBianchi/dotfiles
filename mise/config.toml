@@ -4,8 +4,8 @@ deno = "latest"
 jq = "latest"
 lua = "latest"
 node = "latest"
+opencode = "latest"
 pi = "latest"
-postgres = "latest"
 ruby = "latest"
 
 [env]
