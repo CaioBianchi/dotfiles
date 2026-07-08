@@ -1,6 +1,5 @@
 [tools]
 aube = "latest"
-deno = "latest"
 jq = "latest"
 lua = "latest"
 node = "latest"
