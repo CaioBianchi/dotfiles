@@ -1,12 +1,24 @@
 [tools]
 aube = "latest"
+bat = "latest"
+bat-extras = "latest"
+fastfetch = "latest"
+gh = "latest"
+herdr = "latest"
 jq = "latest"
+lazygit = "latest"
+lsd = "latest"
 lua = "latest"
+neovim = "latest"
 node = "latest"
 "npm:typescript" = "latest"
 opencode = "latest"
 pi = "latest"
+ripgrep = "latest"
 ruby = "latest"
+tmux = "latest"
+tree-sitter = "latest"
+zoxide = "latest"
 
 [env]
 HK_MISE = 1

@@ -705,6 +705,8 @@ do
     --
     -- But for many setups, the LSP (`ts_ls`) will work just fine
     -- ts_ls = {},
+    ruby_lsp = {},
+    rubocop = {},
 
     stylua = {}, -- Used to format Lua code
 
