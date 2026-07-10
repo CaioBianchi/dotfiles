@@ -1,74 +1,61 @@
-brew "atuin"
+# Automatic configure script builder
 brew "autoconf"
+# Collection of over 500 reusable autoconf macros
 brew "autoconf-archive"
+# Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
+# Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
-brew "bat"
+# New way to see and navigate directory trees
 brew "broot"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
-brew "ccache"
+# Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
+# Cross-platform make
 brew "cmake"
-brew "colima"
+# GNU File, Shell, and Text utilities
 brew "coreutils"
-brew "cowsay"
-brew "docker", link: false
-brew "duf"
-brew "dust"
-brew "eza"
-brew "fastfetch"
+# Simple, fast and user-friendly alternative to find
 brew "fd"
+# User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
-brew "fortune"
-brew "fzf"
-brew "gh"
-brew "ghostscript"
+# Distributed revision control system
 brew "git"
+# Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# Git extension for versioning large files
 brew "git-lfs"
+# Ping, but with a graph
 brew "gping"
-brew "httpie"
+# Command-line benchmarking tool
 brew "hyperfine"
-brew "jj"
-brew "jq"
-brew "just"
-brew "lazydocker"
-brew "lazygit"
-brew "lazysql"
-brew "libpq"
+# Generic library support script
 brew "libtool"
+# YAML Parser
 brew "libyaml"
-brew "llvm@21"
-brew "lsd"
-brew "lua-language-server"
-brew "luarocks"
+# Polyglot runtime manager (asdf rust clone)
 brew "mise"
+# Simple tool to make locally trusted development certificates
 brew "mkcert"
-brew "mole"
+# Netwide Assembler (NASM) is an 80x86 assembler
 brew "nasm"
-brew "neovim"
+# Small build system for use with gyp or CMake
 brew "ninja"
+# Libraries for security-enabled client and server applications
 brew "nss"
+# Package compiler and linker metadata toolkit
 brew "pkgconf"
-brew "poppler"
+# Modern replacement for ps written in Rust
 brew "procs"
-brew "ripgrep"
+# Intuitive find & replace CLI
 brew "sd"
+# Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
+# Autoformat shell script source code
 brew "shfmt"
-brew "stylua"
-brew "tmux"
-brew "todo-txt"
-brew "tokei"
+# Command-line unarchiving tools supporting multiple formats
 brew "unar"
-brew "uv"
+# Execute commands when watched files change
 brew "watchexec"
-brew "wget"
-brew "yazi"
-brew "yq"
-brew "zoxide"
-cask "1password-cli"
-cask "dot"
-cask "font-symbols-only-nerd-font"
-cask "transmission"
 cargo "tree-sitter-cli"
