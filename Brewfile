@@ -4,4 +4,3 @@ brew "coreutils"
 brew "fish"
 # Distributed revision control system
 brew "git"
-cargo "tree-sitter-cli"
