@@ -35,7 +35,8 @@
   editor = nvim
   excludesfile = ~/.gitignore
   fsmonitor = true
-  pager = delta
+  ; pager = delta
+  pager = hunk pager
   safecrlf = warn
   untrackedCache = true
 
