@@ -16,19 +16,14 @@ abbr -a lt "lsd --tree --level=2 --long"
 abbr -a tree "lsd --tree"
 abbr -a cat bat
 abbr -a mkdir "mkdir -p"
-abbr -a du dust
-abbr -a df duf
 
 # Quick preview
 abbr -a preview "fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
 
 # Config & tools
-abbr -a cfg "chezmoi cd"
 abbr -a gconfig "ghostty +edit-config"
 abbr -a ld lazydocker
 abbr -a lg lazygit
-abbr -a lgc "lazygit -p ~/.local/share/chezmoi"
-abbr -a yz yazi
 
 # Directory navigation
 abbr -a .. "cd .."
@@ -56,7 +51,6 @@ abbr -a bubo "brew update && brew bundle --global"
 abbr -a bci "brew cleanup --prune=all"
 
 # Process / system
-abbr -a top btop
 abbr -a ps procs
 
 # Quick tmux
