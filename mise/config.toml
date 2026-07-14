@@ -31,3 +31,6 @@ HK_MISE = 1
 
 [settings]
 minimum_release_age = "0s"
+
+[settings.ruby]
+compile = false
